@@ -1,0 +1,29 @@
+name: legitey
+version: '${project.version}'
+main: legitey.legitey.Legitey
+commands:
+  Inv:
+    description: Inventory
+    usage: /inv
+    aliases:
+      - inventory
+      - i
+  killPlayer:
+    description: Mate um jogador
+    usage: /killplayer
+    aliases:
+      - kp
+      - klp
+      - killp
+      - pk
+
+  fly:
+    description: Sla kk
+    usage: /fly
+    permission: fly
+    permission-message: Você não tem permissão seu merda
+    aliases:
+      - f
+      - flying
+      - ff
+
